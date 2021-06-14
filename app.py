@@ -53,7 +53,7 @@ app.layout = html.Div(
                                 {"label": region, "value": region}
                                 for region in np.sort(data.region.unique())
                             ],
-                            value="SanFransico",
+                            value="SanFrancisco",
                             clearable=False,
                             className="dropdown",
                         ),
